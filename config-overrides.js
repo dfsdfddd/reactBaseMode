@@ -3,7 +3,7 @@ const {
   fixBabelImports,
   addLessLoader
 } = require('customize-cra');
-const them = require("./them.json")
+const theme = require("./them.json")
 module.exports = override(
   fixBabelImports('import', {
     libraryName: 'antd-mobile',
@@ -11,6 +11,6 @@ module.exports = override(
   }),
   addLessLoader({
     javascriptEnabled: true,
-    modifyVars: them
+    modifyVars: theme
   })
 );

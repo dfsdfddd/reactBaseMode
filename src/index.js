@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// 倒入ant-design的样式
+import 'antd-mobile/dist/antd-mobile.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// 倒入ant-design的样式
-import 'antd-mobile/dist/antd-mobile.css';
+
 
 ReactDOM.render(
   <React.StrictMode>

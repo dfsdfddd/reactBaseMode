@@ -1,4 +1,4 @@
 {
-  "brand-primary": "red",
-  "color-text-base":  "#333"
+  "@brand-primary": "red",
+    "color-text-base":  "#333"
 }
